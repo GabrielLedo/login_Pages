@@ -10,9 +10,10 @@ body{
     background-color: #f0f0f0;
 }
 
-/* MAIN-CONTAINER */
+/* CONTAINERS */
 #main-container{
     display: flex;
+    padding-top: 130px;
 }
 
 #banner-container,
@@ -22,9 +23,13 @@ body{
 
 #banner-container{
     display: flex;
-    padding: 170px 150px 0 ;
+    padding: 50px 150px 50px ;
     width: 70rem;
     flex-wrap: wrap;
+}
+
+#banner-container figure{
+    height: 80px;
 }
 
 #banner-container img{
@@ -33,11 +38,140 @@ body{
     position: relative;
 }
 
-#banner-container p{
+#banner-text{
     font-size: 28px;
     color: #1C1E21;
-    padding-left: 33px;
-    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+    width: 470px;
 }
+
+
+#login-container{
+    border-radius: 10px;
+    width: 400px;
+    height: 380px;
+    margin-right: 320px;
+}
+/* FORM-BOX */
+
+#form-box{
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    width: 100%;
+    margin-right: 190px;
+}
+
+#login-form input{
+    display: block;
+    font-size: 16px;
+    padding: 16px 20px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    width: 360px;
+}
+
+#login-form input[type="text"]{
+    margin: 17px auto 12px;
+}
+
+#login-form input[type="password"]{
+    margin: 12px auto 17px;
+}
+
+.button-login button{
+    display: block;
+    font-size: 20px;
+    padding: 15px 9px;
+    background-color: #1877F2;
+    border: none;
+    border-radius: 8px;
+    width: 350px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: bold;
+    cursor:pointer;
+}
+.button-login button p{
+    padding-bottom: 8px;
+}
+
+.button-login button p:hover{
+    text-decoration: underline;
+}
+
+#forgot{
+    text-align: center;
+}
+
+#forgot a{
+
+    font-size: 14px;
+    text-decoration: none;
+    color: #3286F3;
+}
+
+#forgot a:hover{
+    text-decoration: underline;
+}
+
+/* SEPARATOR */
+#separator{
+    position: relative;
+}
+
+#line{
+    border-top: 1px solid #dbdbdb;
+    width: 350px;
+    margin: 20px auto 25px;
+}
+
+/* NEW ACCOUNT  */
+
+#create-new-account {
+    font-size: 17px;
+    padding: 16px 9px;
+    background-color: #42B72A;
+    border: none;
+    border-radius: 8px;
+    width: 196px;
+    height: 50px;
+    margin: 0 auto 25px;
+    font-weight: bold;
+    cursor:pointer;
+    text-align: center;
+    transition-duration: 0.2s;
+}
+
+#create-new-account a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#create-new-account:hover{
+    background-color: #36A420;
+}
+
+/* CREATE-PAGE */
+#create-page{
+    font-size: 14px;
+    color: #1C1E21;
+    margin: 23px;
+    text-align: center;
+}
+
+#create-page a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #1C1E21;
+}
+
+
+
+
 
 
