@@ -170,8 +170,94 @@ body{
     color: #1C1E21;
 }
 
+#create-page a:hover{
+    text-decoration: underline;
+}
 
+/* FOOTER */
 
+footer{
+    text-align: left;
+    width: 100%;
+    margin: 200px 0 0 0;
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
 
+footer nav{
+    width: 990px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
+footer #languages{
+    display: flex;
+    list-style: none;
+}
 
+#languages li{
+    margin-right: 10px ;
+}
+
+#languages li:hover{
+    text-decoration: underline #8A8D91;
+}
+
+.pluss{
+    font-weight: bold;
+    border: 1px solid #dbdbdb;
+    padding-left: 10px ;
+}
+.pluss a{
+    font-size: 20px;
+}
+
+#languages a,
+#footer-links a,
+#copyright{
+    text-decoration: none;
+    font-size: 12px;
+    color: #8A8D91;
+}
+
+#footer-separator{
+    position: relative;
+}
+
+#footer-separator #fLine{
+    border-top: 1px solid #dbdbdb;
+    width: 1000px;
+    margin: 10px auto 10px;
+}
+
+#links{
+    width: 999px;
+    padding: 0;
+    display: flex;
+
+}
+#links #footer-links{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#links #footer-links li{
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+#links #footer-links img{
+    width: 20px;
+}
+
+#footer-links li:hover{
+    text-decoration: underline #8A8D91;
+}
+
+#copyright{
+    padding: 20px 0;
+}
