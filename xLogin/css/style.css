@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+    background-color: #000;
+}
+
+main{
+    display: flex;
+    padding-top: 6rem;
+}
+
+#main-container{
+    margin: 0.5rem 3rem 5rem 5.5rem;
+}
+#main-container img{
+    width: 21rem;
+    padding: 4rem 0 0 7rem;
+}
+
+#login-container{
+    width: 50rem;
+}
+
+#banner-text{
+    margin-left: 11rem ;
+}
+
+.happening{
+    font-size: 4.5rem;
+    padding-bottom: 3rem;
+    color: #E7E9EA;
+    display: block;
+    font-weight: bold;
+}
+
+.join{
+    font-size: 2rem;
+    color: #E7E9EA;
+    font-weight: bold;
+}
+
+#google-connect{
+    width: 20rem;
+    height: 3rem;
+    background-color: #fff;
+    display: flex;
+    border-radius: 4em;
+}
+
+#sign-up{
+    display: block;
+}
+
+.email-button{
+    display: flex;
+}
+
+.email-button img{
+    height: 2em;
+}
+
+.google-logo{
+    display: flex;
+}
+.google-logo img{
+    height: 2em;
+}
+
+.profile-img img{
+    width: 2em;
+}
+
