@@ -1,76 +1,165 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Fira Sans', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
+body {
+  background-color: #000;
+}
+
+a{
+    text-decoration: none;
+}
+
+main {
+  display: flex;
+  padding-top: 5.6rem;
+}
+
+#main-container {
+  margin: 0.5rem 3rem 5rem 5.5rem;
+}
+#main-container img {
+  width: 21rem;
+  padding: 4rem 0 0 7rem;
+}
+
+#login-container {
+  width: 50rem;
+  margin-left: 1.875rem;
+}
+
+#banner-text {
+  margin-left: 11rem;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.happening {
+  font-size: 4.5rem;
+  padding-bottom: 3rem;
+  color: #e7e9ea;
+  display: block;
+  font-weight: bold;
+}
+
+.join {
+  font-size: 2rem;
+  color: #e7e9ea;
+  font-weight: bold;
+}
+
+/* GOOGLE LINK BUTTOM */
+#google-connect {
+  width: 18rem;
+  height: 2.4rem;
+  background-color: #fff;
+  display: flex;
+  border-radius: 4em;
+  margin: 1.7rem 0 0 11rem;
+  justify-content: space-around;
+  max-width: 23rem;
+  cursor: pointer;
+}
+
+.profile-img img {
+  width: 20px;
+  border-radius: 60px;
+  margin: 0.5rem 0 0 0.3rem;
+}
+
+#sign-up {
+  display: block;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding: 0.3rem 3rem 0 0;
+}
+
+.signup-text{
+    font-size: 12px;
+    color: #404447;
+    font-weight: 500;
+    width: 100%;
+}
+
+.email{
+    font-size: 11px;
+    color: #71757A;
+    font-weight: 400;
+}
+
+.email-button {
+  display: flex;
+  align-items: center;
+}
+
+.email-button svg {
+  height: 11px;
+  fill: #71757a;
+  padding: 0.2rem 0 0 0.5rem;
+}
+
+.google-logo {
+  display: flex;
+}
+.google-logo img {
+  height: 1.7em;
+  margin: 0.3rem 0 0 0.9rem;
+}
+
+/* APPLE BUTTOM */
+
+#apple{
+  width: 18rem;
+  height: 2.4rem;
+  background-color: #fff;
+  display: flex;
+  border-radius: 4em;
+  margin: 0.75rem 0 0 11rem;
+  max-width: 23rem;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+}
+
+#apple:hover{
+    background-color: #E6E6E6;
+}
+
+.apple-text{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 0.9rem;
+}
+
+.logo-apple{
+    height: 1.4rem;
+    fill: #0F1419;
+    padding-right: 0.40rem;
+}
+
+/* SEPARATOR */
+.separator{
+    display: flex;
+}
+
+.line{
+    border-top: 1px solid #575555db;
+    width: 18rem;
+    margin: 1rem 0 0 11rem;
+}
+
+.or {
+    position: absolute;
     background-color: #000;
+    align-items: center;
+    width: 2rem;
+    z-index: 1;
+    margin: 0.4rem 0 0 19.1rem;
+}
+.or span{
+    color: #fff;
+    padding-left: 0.5rem;
+    font-size: 17px;
 }
 
-main{
-    display: flex;
-    padding-top: 6rem;
-}
-
-#main-container{
-    margin: 0.5rem 3rem 5rem 5.5rem;
-}
-#main-container img{
-    width: 21rem;
-    padding: 4rem 0 0 7rem;
-}
-
-#login-container{
-    width: 50rem;
-}
-
-#banner-text{
-    margin-left: 11rem ;
-}
-
-.happening{
-    font-size: 4.5rem;
-    padding-bottom: 3rem;
-    color: #E7E9EA;
-    display: block;
-    font-weight: bold;
-}
-
-.join{
-    font-size: 2rem;
-    color: #E7E9EA;
-    font-weight: bold;
-}
-
-#google-connect{
-    width: 20rem;
-    height: 3rem;
-    background-color: #fff;
-    display: flex;
-    border-radius: 4em;
-}
-
-#sign-up{
-    display: block;
-}
-
-.email-button{
-    display: flex;
-}
-
-.email-button img{
-    height: 2em;
-}
-
-.google-logo{
-    display: flex;
-}
-.google-logo img{
-    height: 2em;
-}
-
-.profile-img img{
-    width: 2em;
-}
 
