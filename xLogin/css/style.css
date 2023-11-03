@@ -22,11 +22,11 @@ main {
 
 #login-container {
   width: 50rem;
-  margin-left: 1.875rem;
+  min-width: 10rem;
+  margin-left: 11rem;
 }
 
 #banner-text {
-  margin-left: 11rem;
   font-family: "Fira Sans", sans-serif;
 }
 
@@ -51,7 +51,7 @@ main {
   background-color: #fff;
   display: flex;
   border-radius: 4em;
-  margin: 1.7rem 0 0 11rem;
+  margin: 1.7rem 0 0 0;
   justify-content: space-around;
   max-width: 23rem;
   cursor: pointer;
@@ -118,7 +118,7 @@ main {
   background-color: #fff;
   display: flex;
   border-radius: 4em;
-  margin: 0.75rem 0 0 11rem;
+  margin: 0.75rem 0 0 0;
   max-width: 23rem;
   align-items: center;
   justify-content: center;
@@ -150,7 +150,7 @@ main {
 .line{
     border-top: 1px solid #575555db;
     width: 18rem;
-    margin: 1rem 0 0 11rem;
+    margin: 1rem 0 0 0;
 }
 
 .or {
@@ -159,7 +159,7 @@ main {
     align-items: center;
     width: 2rem;
     z-index: 1;
-    margin: 0.3rem 0 0 19.1rem;
+    margin: 0.3rem 0 0 8.1rem;
 }
 .or span{
     color: #fff;
@@ -177,7 +177,7 @@ main {
     background-color: #1D9BF0;
     display: flex;
     border-radius: 4em;
-    margin: 1rem 0 0.6rem 11rem;
+    margin: 1rem 0 0.6rem 0;
     max-width: 23rem;
     align-items: center;
     justify-content: center;
@@ -205,7 +205,7 @@ main {
     font-size: 11px;
     text-align: left;
     color: #71767B;
-    margin: 0rem 0 1rem 11rem;
+    margin: 0rem 0 1rem 0;
     width: 19rem;
   }
 
@@ -226,7 +226,7 @@ main {
 
   .have-account-text{
     color: #fff;
-    margin: 1rem 0 0.6rem 11rem;
+    margin: 1rem 0 0.6rem 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     padding-bottom: 0.2rem;
@@ -238,7 +238,7 @@ main {
     border: 1px solid #7f8081da;
     display: flex;
     border-radius: 4em;
-    margin: 1rem 0 0.6rem 11rem;
+    margin: 1rem 0 0.6rem 0;
     max-width: 23rem;
     align-items: center;
     justify-content: center;
@@ -291,4 +291,67 @@ main {
     text-decoration: none;
     color: #71767B;
   }
+
+  #footer-links li a:hover{
+    text-decoration: underline;
+  }
+
+  /* MEDIA QUERIES */
+@media(max-width: 1200px){
+    #main-container img{
+        width: 250px;
+    }
+    #login-container{
+        width: 30rem;
+        margin-left: 7rem;
+    }
+    #footer-links{
+        flex-wrap: wrap;
+        width: 60rem;
+    }
+}
+
+@media(max-width: 1025px){
+    #main-container img{
+        width: 200px;
+    }
+    #login-container{
+        width: 10rem;
+        margin-left: 5rem;
+    }
+    #footer-links{
+        flex-wrap: wrap;
+        width: 55rem;
+    }
+}
+
+@media(max-width: 768px){
+    #main-container img{
+        width: 170px;
+    }
+    #login-container{
+        width: 7rem;
+        margin-left: 3rem;
+    }
+    #footer-links{
+        flex-wrap: wrap;
+        width: 40rem;
+    }
+}
+
+@media(max-width: 480px){
+    main{
+        flex-direction: column;
+        width: 10rem;
+    }
+    #main-container{
+        margin: 0;
+    }
+
+    #footer-links{
+        flex-wrap: wrap;
+        width: 25rem;
+    }
+}
+
 
